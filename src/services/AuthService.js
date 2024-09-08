@@ -13,7 +13,7 @@ export function signUp(email, password) {
         returnSecureToken: true,
     };
     return axios.post(
-        `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${apiKey}`,
+        `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyBzKvTjARj6zl98DO9cH62cXlVMSqTMWYM`,
         postData,
     );
 }
